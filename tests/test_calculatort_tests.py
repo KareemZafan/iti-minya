@@ -31,7 +31,7 @@ def test_mul(input1, input2, expected_result):
 def test_div():
     # Arrange , Actions, Assertions 
     assert calculator.div(2,8) == 0.25 
-    assert calculator.div(-2,-8) == 0.25
+    assert calculator.div(-2,-1) == 0.25 #2
     assert calculator.div(18,9) == 2 
     assert calculator.div(0,-8) == 0
 
